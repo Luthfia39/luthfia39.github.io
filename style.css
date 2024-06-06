@@ -1,0 +1,175 @@
+.navbar, footer{
+    background-color: #212A31;
+}
+.navbar, .nav-link, .profile-3, .img-tools, .desc-box{
+    color: #D3D9D4;
+}
+.nav-link.active, .nav-link:hover{
+    background-color: #748D92;
+    color: #212A31;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    width: fit-content;
+}
+span.fw-semi-bold.align-content-center{
+    margin-inline-end: 0.1rem;
+}
+.profile{
+    background-color: #2E3944;
+}
+.profile-1, .profile-2, .btn-project-1-detail:hover{
+    color: #748D92;
+}
+.profile-1, .profile-2, .profile-3, .box-btn-hire{
+    text-align: center;
+}
+.line{
+    height: 0.2rem;
+    width: 50%;
+}
+.line, .img-profile{
+    background-color: #748D92;
+}
+.img-profile {
+    width: 80vw;
+    height: 40vh;
+    background-image: url(./assets/profile.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25% 75% / 50% 30%;
+    cursor: help;
+}
+.tools{
+    background-image: linear-gradient(#124E66, #2E3944);
+}
+.role{
+    color: #124E66;
+}
+.desc{
+    text-align: justify;
+}
+.card{
+    width: min-content;
+}
+.card, .line-spacing-lg, .line-spacing, .project-1{
+    background-color: #D3D9D4;
+}
+.img-tools{
+    width: 3rem;
+    height: 3rem;
+}
+.btn-hire{
+    background-color: #748D92;
+    color: #D3D9D4;
+    border: solid #748D92;
+}
+.btn:hover{
+    background-color: #124E66;
+}
+.line-spacing-lg{
+    width: 0.25rem;
+}
+.line-spacing{
+    height: 0.25rem;
+    width: 75%;
+}
+.btn-hire-2, .btn-project-1-detail{
+    background-color: #748D92;
+    color: #212A31;
+    border: solid #748D92;
+}
+.btn-cv{
+    border: solid #D3D9D4;
+    color: #D3D9D4;
+}
+.btn-cv:hover, .btn-hire-2:hover{
+    border: solid #212A31;
+    background-color: #212A31;
+}
+.box-title{
+    background-color: #124E66;
+    color: #D3D9D4;
+}
+.img-project-1{
+    width: 100vw;
+    height: min-content;
+}
+.img-project-2{
+    width: 100vw;
+    height: min-content;
+}
+.img-project-3{
+    width: calc(100vw/5);
+    height: min-content;
+}
+.side-line-1-lg{
+    width: 0.25rem;
+    height: 25vh;
+    background-color: #124E66;
+}
+.side-line-1{
+    width: 50vw;
+    height: 0.25rem;
+    background-color: #124E66;
+}
+.btn-project-1-patent{
+    border: solid #212A31;
+    color: #212A31;
+}
+.btn-project-1-patent:hover{
+    border: solid #212A31;
+    background-color: #212A31;
+    color: #D3D9D4;
+}
+.footer-title, .loc-1{
+    color: #D3D9D4;
+}
+.loc-logo{
+    width: 2rem;
+    height: 2rem;
+}
+.footer-logo{
+    width: 2rem;
+    height: 2rem;
+}
+@media screen and (min-width: 992px) {
+    .nav-link.active, .nav-link:hover{
+        background-color: #748D92;
+        color: #212A31;
+        border-radius: 10px;
+    }
+    .img-profile {
+        width: 35vw;
+        height: 52vh;
+    
+        background-image: url(./assets/profile.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        border-radius: 25% 75% / 50% 30%;
+        cursor: help;
+    }
+    .profile-1, .profile-2, .profile-3, .box-btn-hire{
+        text-align: start;
+    }
+    .desc-box{
+        width: 50%;
+    }
+    .project-1-name{
+        transform: rotate(90deg);
+    }
+    .img-project-1{
+        width: 45vw;
+        height: 50vh;
+    }
+    .img-project-2{
+        width: 45vw;
+        height: 60vh;
+    }
+    .img-project-3{
+        width: 12vw;
+        height: min-content;
+    }
+}
