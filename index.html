@@ -1,1 +1,234 @@
-<html>Hello World!</html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Luthfia's Portfolio</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg fixed-top shadow-sm py-3 px-4 px-lg-3">
+            <div class="text-center d-flex">
+                <span class="fs-5 fw-semi-bold align-content-center">Luthfia  </span> 
+                <span class="fs-3 fw-bold mb-1"> .</span>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="./assets/list.svg" alt="collapse button">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav fw-medium ms-auto gap-3">
+                    <a class="nav-link fs-5" aria-current="page" href="#profile">Home</a>
+                    <a class="nav-link fs-5" href="#about-me">About Me</a>
+                    <a class="nav-link fs-5" href="#projects">Projects</a>
+                </div>
+            </div>
+        </nav>
+
+        <main data-bs-spy="scroll" data-bs-smooth-scroll="true">
+            <!-- profile section -->
+            <div class="profile" id="profile">
+                <div class="vh-100 container">
+                    <div class="h-100 d-flex flex-lg-row flex-column-reverse justify-content-center">
+                        <div class="align-content-center">
+                            <div class="d-flex-wrap mt-4 mt-lg-0">
+                                <p class="fs-2 fw-bolder mb-0 profile-1">Hi everyone! 🙋‍♀️</p>
+                                <p class="fs-1 profile-2 mb-1">I am <span class="fw-bold profile-3">Luthfia Nisa Azzahra</span> </p>
+                                <div class="line mb-4 ms-auto ms-lg-0 me-auto me-lg-0"></div>
+                                <p class="fs-4 profile-3">Highly interested in <span class="fw-medium">Web Development</span> and <span class="fw-medium">Android Development</span> </p>
+                                <div class="box-btn-hire mt-5 mt-lg-0">
+                                    <a href="https://www.linkedin.com/in/luthfia-nisa-azzahra" class="btn px-4 py-2 btn-hire fw-medium text-decoration-none" >
+                                        Hire Now!
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex px-lg-4 align-items-center align-self-center">
+                            <div class="img-profile"></div>
+                        </div>
+                    </div>
+                </div>            
+            </div>
+
+            <!-- about me section -->
+            <div class="tools py-5" id="about-me">
+                <div class="vh-100 container align-content-center">
+                    <div class="mt-lg-5 d-flex flex-lg-row flex-column gap-lg-5 gap-3 justify-content-between">
+
+                        <!-- description -->
+                        <div class="desc-box d-flex flex-column justify-content-center">
+                            <div class="d-flex flex-column">
+                                <p class="fs-1 fw-bold text-center tools-title mb-1">Why Consider Me?</p>
+                                <div class="d-lg-flex d-none flex-row gap-5 justify-content-center mt-lg-4">
+                                    <a href="https://www.linkedin.com/in/luthfia-nisa-azzahra" class="btn btn-hire-2 fw-medium text-decoration-none px-4 py-2">Hire Now!</a>
+                                    <a href="https://drive.google.com/file/d/1eFqspUT9D0VV8mb06aUVYRhJcViTQ-mj/view?usp=sharing" class="btn btn-cv px-4 py-2" >More Detail</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="line-spacing-lg vh-25 d-none d-lg-block"></div>
+                        <div class="line-spacing align-self-center d-block d-lg-none mb-3"></div>
+                        <div class="desc-box">
+                            <p class="fs-4 fw-semi-bold desc px-lg-0 px-3">
+                                Because I am a graduate of the Mobile Development program from Bangkit Academy. Experienced intern as a Software Testing and Fullstack Developer. 
+                                Served as Project Manager for a website project simulating accounting certification. Proficient in programming languages such as <span class="fw-medium">Python, Java, and JavaScript</span>. 
+                                Additionally, skilled in web development using <span class="fw-medium">HTML, CSS, PHP, and Laravel</span>. Also experienced in developing Android applications with <span class="fw-medium">Kotlin, Jetpack Compose, and Flutter</span>. Committed to continuous learning and staying updated with the latest industry trends.
+                            </p>
+                        </div>
+                        <div>
+                            <div class="d-flex d-lg-none flex-row gap-5 justify-content-center mt-lg-4">
+                                <a href="https://www.linkedin.com/in/luthfia-nisa-azzahra" class="btn btn-hire-2 fw-medium text-decoration-none px-4 py-2">Hire Now!</a>
+                                <a href="https://drive.google.com/file/d/1eFqspUT9D0VV8mb06aUVYRhJcViTQ-mj/view?usp=sharing" class="btn btn-cv px-4 py-2" >More Detail</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- projects section -->
+            <div class="project" id="projects">
+                <div class="d-flex flex-column">
+                    <div class="vh-25 py-5 d-flex flex-column box-title gap-3">
+                        <p class="fs-1 fw-bold text-center tools-title mb-1">My Projects</p>
+                    </div>
+                    
+                    <!-- CGAA -->
+                    <div class="d-flex flex-column">
+                        <div class="project-1 vh-50 d-flex flex-lg-row flex-column gap-lg-5 gap-4 py-lg-5 pe-lg-3">
+                            <div class="box-project-1">
+                                <img src="./assets/cgaa.png" alt="Landing page CGAA website" class="img-project-1">
+                            </div>
+                            <div class="desc-project-1 d-flex flex-column justify-content-center text-center">
+                                <p class="fs-4 fw-bold px-3 mb-1">Certified Government Accounting Associate (CGAA) Simulation Website</p>
+                                <p class="fs-5 fw-bolder px-3 role fst-italic">(Project Manager)</p>
+                                <p class="fw-semi-bold px-3">A website designed for the preparation of government accounting competency certification exams, featuring real-time assessment to minimize the risk of exam failure.</p>
+                                <div class="d-flex flex-row gap-5 justify-content-center mt-lg-3">
+                                    <a href="https://cgaasimulation.site/" class="btn btn-project-1-detail fw-medium text-decoration-none px-4 py-2">See Website</a>
+                                    <a href="https://pdki-indonesia.dgip.go.id/detail/1434fef5f173472ac93b016bcafda99842e4287bf536b3c2b31cb22fd67b6ee9?nomor=EC002023106723&type=copyright&keyword=000539678" class="btn btn-project-1-patent px-4 py-2" >See Patent</a>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-lg-column flex-none gap-3 align-items-center justify-content-center pb-3 pb-lg-0">
+                                <p class="fs-5 fw-semi-bold mb-0 mt-lg-none">01</p>
+                                <div class="d-none d-lg-block side-line-1-lg"></div>
+                                <div class="d-block d-lg-none side-line-1"></div>
+                                <p class="fs-5 fw-semi-bold project-1-name mt-lg-3 mb-0">CGAA</p>
+                            </div>
+                        </div>
+
+                        <!-- KPI Kemenkeu -->
+                        <div class="project-1 vh-50 d-flex flex-lg-row-reverse flex-column gap-lg-5 gap-4 py-lg-5 ps-lg-3">
+                            <div class="box-project-1">
+                                <img src="./assets/kpi.png" alt="Landing page CGAA website" class="img-project-2">
+                            </div>
+                            <div class="desc-project-1 d-flex flex-column justify-content-center text-center">
+                                <p class="fs-4 fw-bold px-3 mb-1">Key Performance Indicators Website for KEMENKEU RI</p>
+                                <p class="fs-5 fw-bolder px-3 role fst-italic">(Fullstack Developer)</p>
+                                <p class="fw-semi-bold px-3">A website utilized to facilitate the calculation of KPIs for the 12 echelon one units under the Ministry of Finance of the Republic of Indonesia.</p>
+                            </div>
+                            <div class="d-flex flex-lg-column flex-none gap-3 align-items-center justify-content-center pb-3 pb-lg-0">
+                                <p class="fs-5 fw-semi-bold mb-0 mt-lg-none">02</p>
+                                <div class="d-none d-lg-block side-line-1-lg"></div>
+                                <div class="d-block d-lg-none side-line-1"></div>
+                                <p class="fs-5 fw-semi-bold project-1-name mt-lg-3 mb-0">KPI</p>
+                            </div>
+                        </div>
+
+                        <!-- SaySco -Capstone Bangkit -->
+                        <div class="project-1 vh-50 d-flex flex-lg-row flex-column gap-lg-5 gap-4 py-lg-5">
+                            <div class="box-project-1 d-flex flex-row gap-2 justify-content-between">
+                                <img src="./assets/saysco-3.png" alt="Landing page CGAA website" class="img-project-3">
+                                <img src="./assets/saysco-1.png" alt="Landing page CGAA website" class="img-project-3">
+                                <img src="./assets/saysco-4.png" alt="Landing page CGAA website" class="img-project-3">
+                                <img src="./assets/saysco-2.png" alt="Landing page CGAA website" class="img-project-3">
+                            </div>
+                            <div class="desc-project-1 d-flex flex-column justify-content-center text-center">
+                                <p class="fs-4 fw-bold px-3 mb-1">Saysco (Essay Scoring App)</p>
+                                <p class="fs-5 fw-bolder px-3 role fst-italic">(Android Developer)</p>
+                                <p class="fw-semi-bold px-3">An application implementing machine learning to streamline the essay scoring process by providing a simple yet effective tool for teachers.</p>
+                                <div class="d-flex flex-row gap-5 justify-content-center mt-lg-3">
+                                    <a href="https://github.com/capstone-saysco/app" class="btn btn-project-1-detail fw-medium text-decoration-none px-4 py-2">See Project</a>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-lg-column flex-none gap-3 align-items-center justify-content-center pb-3 pb-lg-0">
+                                <p class="fs-5 fw-semi-bold mb-0 mt-lg-none">03</p>
+                                <div class="d-none d-lg-block side-line-1-lg"></div>
+                                <div class="d-block d-lg-none side-line-1"></div>
+                                <p class="fs-5 fw-semi-bold project-1-name mt-lg-3 mb-0">SaySco</p>
+                            </div>
+                        </div>
+
+                        <!-- Zero Plastic -->
+                        <div class="project-1 vh-50 d-flex flex-lg-row-reverse flex-column gap-lg-5 gap-4 py-lg-5 ps-lg-3">
+                            <div class="box-project-1">
+                                <img src="./assets/zero-plastic.png" alt="Landing page CGAA website" class="img-project-2">
+                            </div>
+                            <div class="desc-project-1 d-flex flex-column justify-content-center text-center">
+                                <p class="fs-4 fw-bold px-3 mb-1">Zero Plastic Website</p>
+                                <p class="fs-5 fw-bolder px-3 role fst-italic">(Frontend Developer)</p>
+                                <p class="fw-semi-bold px-3">Zero Plastic is a website dedicated to reducing plastic waste by promoting reusable, eco-friendly products. This project serves as a platform to support the Zero Plastic campaign.</p>
+                                <div class="d-flex flex-row gap-5 justify-content-center mt-lg-3">
+                                    <a href="https://github.com/alyazakhira/PAD1-ZeroPlastic" class="btn btn-project-1-detail fw-medium text-decoration-none px-4 py-2">See Project</a>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-lg-column flex-none gap-3 align-items-center justify-content-center pb-3 pb-lg-0">
+                                <p class="fs-5 fw-semi-bold mb-0 mt-lg-none">04</p>
+                                <div class="d-none d-lg-block side-line-1-lg"></div>
+                                <div class="d-block d-lg-none side-line-1"></div>
+                                <p class="fs-5 fw-semi-bold project-1-name mt-lg-3 mb-0">Zero Plastic</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- footer -->
+        <footer>
+            <div class="d-flex flex-lg-column flex-row py-lg-3 px-lg-5 p-3 justify-content-center mb-0">
+                <div class="d-flex flex-lg-row flex-column justify-content-between align-items-center">
+                    <div class="d-none d-lg-flex flex-row gap-3 align-items-center">
+                        <img src="./assets/pin-map-fill.svg" alt="location logo" class="loc-logo">
+                        <div class="d-flex flex-column">
+                            <p class="fw-bolder loc-1 mb-0"> 
+                                Sleman, 
+                            </p>
+                            <p class="fw-medium loc-1">Yogyakarta, Indonesia</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="d-flex flex-row gap-4">
+                            <a href="https://maps.app.goo.gl/3rTU7QRWTxbuTbidA" class="d-block d-lg-none"> <img src="./assets/pin-map-fill.svg" alt="location logo" class="footer-logo"> </a>
+                            <a href="https://www.linkedin.com/in/luthfia-nisa-azzahra" class=""> <img src="./assets/linkedin.svg" alt="linkedin logo" class="footer-logo"> </a>
+                            <a href="mailto:luthfianisa339@gmail.com" class=""> <img src="./assets/envelope-fill.svg" alt="email logo" class="footer-logo"> </a>
+                            <a href="https://github.com/Luthfia39" class=""> <img src="./assets/github.svg" alt="github logo" class="footer-logo"> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>        
+    </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+        integrity= 
+"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"> 
+    </script> 
+    <script> 
+        var btns =  
+            $(".navbar-nav .nav-link"); 
+
+        for (var i = 0; i < btns.length; i++) { 
+            btns[i].addEventListener("click", 
+                                  function () { 
+                var current = document
+                    .getElementsByClassName("active"); 
+
+                current[0].className = current[0] 
+                    .className.replace(" active", ""); 
+
+                this.className += " active"; 
+            }); 
+        } 
+    </script> 
+</html>
